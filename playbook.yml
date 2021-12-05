@@ -1,0 +1,27 @@
+site:
+  title: Example System
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://example.com/
+  start_page: site::index.adoc
+content:
+  sources:
+  - url:   https://github.com/better-docs/doc-site-tpl.git
+    start_path: docs
+    branches: [master]
+  - url:   https://github.com/better-docs/system-doc-tpl.git
+    start_path: docs
+    branches: [master]
+ui:
+  bundle:
+     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+     snapshot: true
+
+asciidoc:
+  attributes:
+    sectanchors: true
+    kroki-fetch-diagram: true
+    kroki-server-url: https://kroki.io
+  extensions:
+  - asciidoctor-kroki
+output:
+  dir: antora-site/dist/

@@ -1,0 +1,15 @@
+= Antora Site Definition
+
+This config assumes the following directory layout
+
+.Directory layout
+----
+.
+├── doc-site-tpl  <1>
+├── system-doc-tpl  <2>
+├── component1-tpl <3>
+...
+----
+<1> This is the site description (this repo)
+<2> This is the system description
+<3> This is component #1
