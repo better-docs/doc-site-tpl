@@ -1,0 +1,30 @@
+name: Publish to GitHub Pages
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: [Red Tape      ] Checkout repository
+        uses: actions/checkout@v2
+      - name: [install Antora] Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: [install Antora] Install Antora from npm
+        run: npm i --no-fund --no-audit --silent @antora/cli @antora/site-generator
+      - name: [install Antora] Install Kroki client
+        run: npm i --no-fund --no-audit --silent @asciidoctor-kroki 
+      - name: [install Antora] Install Kroki client
+      - name: [run Antora    ] Run Antora
+        run: npx --no-install antora --fetch antora-playbook.yml
+      - name: [publish       ] Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/site
+
+
+
+
