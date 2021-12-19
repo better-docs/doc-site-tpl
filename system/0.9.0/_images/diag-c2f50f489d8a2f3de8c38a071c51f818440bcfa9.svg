@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="594px" preserveAspectRatio="none" style="width:843px;height:594px;background:#FFFFFF;" version="1.1" viewBox="0 0 843 594" width="843px" zoomAndPan="magnify"><defs><filter height="300%" id="fjl9s8qfe7d4u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[352ef287b9f0ec53b7305306ae20b7fa]
+entity doc--><rect fill="#FFFFFF" filter="url(#fjl9s8qfe7d4u)" height="36.7999" style="stroke:#000000;stroke-width:1.5;" width="168" x="210" y="223"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="220" y="246.9999">System</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="276" y="246.9999">Documentation</text><!--MD5=[1e31d86bd2979dcabd3f86a160229ec9]
+class arc42--><rect codeLine="8" fill="#F8F8F8" filter="url(#fjl9s8qfe7d4u)" height="213.199" id="arc42" style="stroke:#383838;stroke-width:1.5;" width="168" x="7" y="135"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="26.5" y="152.0001">«system documentation»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="60.5" y="166.4002">Architecture</text><line style="stroke:#383838;stroke-width:1.5;" x1="8" x2="174" y1="173.8002" y2="173.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="13" y="188.8001">01 introduction</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="13" y="202">02 constraints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="13" y="215.1999">03 scope and context</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="13" y="228.3998">04 solution strategy</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="13" y="241.5997">05 building blocks</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="13" y="254.7996">06 runtime view</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="13" y="267.9995">07 deployment view</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="13" y="281.1994">08 cross-cutting concepts</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="13" y="294.3993">09 architectural design decisions</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="13" y="307.5992">10 quality scenarios</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="13" y="320.7991">11 technical risks</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="13" y="333.999">12 glossary</text><line style="stroke:#383838;stroke-width:1.5;" x1="8" x2="174" y1="340.199" y2="340.199"/><!--MD5=[eee49147cc11595eac22857d75d70c2d]
+class om--><rect codeLine="23" fill="#F8F8F8" filter="url(#fjl9s8qfe7d4u)" height="68.0001" id="om" style="stroke:#383838;stroke-width:1.5;" width="131" x="228.5" y="408"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="229.5" y="425.0001">«system documentation»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="99" x="244.5" y="439.4002">Operations Manual</text><line style="stroke:#383838;stroke-width:1.5;" x1="229.5" x2="358.5" y1="446.8002" y2="446.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="234.5" y="461.8001">...</text><line style="stroke:#383838;stroke-width:1.5;" x1="229.5" x2="358.5" y1="468.0001" y2="468.0001"/><!--MD5=[8d2e8470e95a52d8575a3feb1cbec91b]
+class bp--><rect codeLine="27" fill="#F8F8F8" filter="url(#fjl9s8qfe7d4u)" height="68.0001" id="bp" style="stroke:#383838;stroke-width:1.5;" width="134" x="227" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="132" x="228" y="24.0001">«system  documentation»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="242" y="38.4002">Business Processes</text><line style="stroke:#383838;stroke-width:1.5;" x1="228" x2="360" y1="45.8002" y2="45.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="233" y="60.8001">...</text><line style="stroke:#383838;stroke-width:1.5;" x1="228" x2="360" y1="67.0001" y2="67.0001"/><!--MD5=[f8cb1005cfc36a7492234aabf44e667d]
+class dtd--><rect codeLine="31" fill="#F8F8F8" filter="url(#fjl9s8qfe7d4u)" height="133.9996" id="dtd" style="stroke:#383838;stroke-width:1.5;" width="101" x="413.5" y="174.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="99" x="414.5" y="191.5001">«work in progress»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="435" y="205.9002">Day-to-day</text><line style="stroke:#383838;stroke-width:1.5;" x1="414.5" x2="513.5" y1="213.3002" y2="213.3002"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="419.5" y="228.3001">planning</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="419.5" y="241.5">ideas</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="419.5" y="254.6999">sketches</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="419.5" y="267.8998">protocols</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="419.5" y="281.0997">analyses</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="419.5" y="294.2996">...</text><line style="stroke:#383838;stroke-width:1.5;" x1="414.5" x2="513.5" y1="300.4996" y2="300.4996"/><path d="M549.5,189.5 L549.5,237.5 L514.77,241.5 L549.5,245.5 L549.5,293.1001 A0,0 0 0 0 549.5,293.1001 L834.5,293.1001 A0,0 0 0 0 834.5,293.1001 L834.5,199.5 L824.5,189.5 L549.5,189.5 A0,0 0 0 0 549.5,189.5 " fill="#EBEBEB" filter="url(#fjl9s8qfe7d4u)" style="stroke:#383838;stroke-width:1.0;"/><path d="M824.5,189.5 L824.5,199.5 L834.5,199.5 L824.5,189.5 " fill="#EBEBEB" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263" x="556" y="207.5">Where the other sections of the documentation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="597.5" y="223.1">describe the system</text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="38" x="712.5" y="223.1">as it is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="750.5" y="223.1">, this</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="555.5" y="238.7">section contains</text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="111" x="650.5" y="238.7">things that might be</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="764.5" y="238.7">like drafts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="607" y="254.3001">for new features and ideas or</text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="58" x="603" y="269.9001">day to day</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="664" y="269.9001">documentation like</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="660" y="285.5001">protocols.</text><!--MD5=[e551c3ccee6a5c15e7c3fa7bc0ee16d5]
+link arc42 to doc--><path codeLine="40" d="M175.05,241.5 C182.31,241.5 189.57,241.5 196.83,241.5 " fill="none" id="arc42-to-doc" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="209.9,241.5,203.9,237.5,197.9,241.5,203.9,245.5,209.9,241.5" style="stroke:#383838;stroke-width:1.0;"/><!--MD5=[0be62d4a2f20963e70ba4e25e8e985e6]
+reverse link doc to dtd--><path codeLine="41" d="M391.23,241.5 C398.58,241.5 405.93,241.5 413.28,241.5 " fill="none" id="doc-backto-dtd" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="378,241.5,384,245.5,390,241.5,384,237.5,378,241.5" style="stroke:#383838;stroke-width:1.0;"/><!--MD5=[d35048cf58e671c87f4d715d599899db]
+reverse link doc to om--><path codeLine="42" d="M294,273.25 C294,309.7 294,370.23 294,407.74 " fill="none" id="doc-backto-om" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="294,260.12,290,266.12,294,272.12,298,266.12,294,260.12" style="stroke:#383838;stroke-width:1.0;"/><!--MD5=[d2fe396ba740b6035c855c7d3cdac5fb]
+link bp to doc--><path codeLine="43" d="M294,75.22 C294,112.74 294,173.28 294,209.74 " fill="none" id="bp-to-doc" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="294,222.88,298,216.88,294,210.88,290,216.88,294,222.88" style="stroke:#383838;stroke-width:1.0;"/><rect fill="#FFFFFF" height="81.1997" rx="5" ry="5" style="stroke:#000000;stroke-width:1.0;" width="129" x="690.5" y="497.0001"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="696.5" y="518">Style</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="742.5" y="518">Relevance</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="31" x="696.5" y="534.8">bold</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="742.5" y="534.8">in focus</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="line-through" textLength="41" x="696.5" y="551.5999">striked</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="742.5" y="551.5999">irrelevant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="696.5" y="568.3998">default</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="742.5" y="568.3998">considered</text><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="813.5" y1="504.0001" y2="504.0001"/><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="813.5" y1="520.8" y2="520.8"/><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="813.5" y1="537.6" y2="537.6"/><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="813.5" y1="554.3999" y2="554.3999"/><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="813.5" y1="571.1998" y2="571.1998"/><line style="stroke:#000000;stroke-width:1.0;" x1="696.5" x2="696.5" y1="504.0001" y2="571.1998"/><line style="stroke:#000000;stroke-width:1.0;" x1="738.5" x2="738.5" y1="504.0001" y2="571.1998"/><line style="stroke:#000000;stroke-width:1.0;" x1="813.5" x2="813.5" y1="504.0001" y2="571.1998"/><!--MD5=[6d59a0e8664a221c7fc58703e053478f]
+@startuml
+skinparam monochrome true
+skinparam defaulttextalignment center
+skinparam legendbackgroundcolor none
+hide circle
+package "<b>System</b> Documentation" as doc <<Rectangle>> {
+}
+
+class "Architecture" as arc42 << system documentation >> {
+  01 introduction
+  02 constraints
+  03 scope and context
+  04 solution strategy
+  05 building blocks
+  06 runtime view
+  07 deployment view
+  08 cross-cutting concepts
+  09 architectural design decisions
+  10 quality scenarios
+  11 technical risks
+  12 glossary
+}
+
+class "Operations Manual" as om << system documentation >> {
+...
+}
+
+class "Business Processes" as bp << system  documentation >> {
+...
+}
+
+class "Day-to-day" as dtd << work in progress >> {
+  planning
+  ideas
+  sketches
+  protocols
+  analyses
+  ...
+}
+
+doc *-left- arc42
+doc *-right- dtd
+doc *-down- om
+doc *-up- bp
+
+note right of dtd: Where the other sections of the documentation\ndescribe the system <i>as it is</i>, this\nsection contains <i>things that might be</i> like drafts\nfor new features and ideas or\n<i>day to day</i> documentation like\nprotocols.
+
+legend right
+|Style| Relevance |
+|<b>bold| in focus |
+|<strike>striked| irrelevant |
+|default| considered |
+endlegend
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

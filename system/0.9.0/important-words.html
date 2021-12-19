@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Important words :: Better Doc Example System</title>
+    <link rel="canonical" href="https://example.com/system/0.9.0/important-words.html">
+    <meta name="description" content="The semantics of SHALL, SHOULD and MAY are defined here.">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://example.com">Better Doc Example System</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="system" data-version="0.9.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">ACME Product - System Level</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">About</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">ROOT index.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="doc-layout.html">Documentation Layout</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="important-words.html">SHALL, SHOULD and MAY</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">arc42 Architecture Documentation</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/01_introduction_and_goals.html">01. Introduction and Goals</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/02_architecture_constraints.html">02. Architecture Constraints</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/03_system_scope_and_context.html">03. System Scope and Context</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/04_solution_strategy.html">04. Solution Strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="arc42/05_building_block_view.html">05. Building Block View</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level1.html">Level 1 Building Blocks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level2.html">Level 2 Building Blocks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level3.html">Level 3 Building Blocks</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/06_runtime_view.html">06. Runtime View</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/07_deployment_view.html">07. Deployment View</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="concepts/intro.html">08. Cross-cutting Concepts</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="concepts/be-secure.html">Be secure</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="concepts/do-this.html">Do this</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="adr/intro.html">09. Design Decisions (ADR)</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="adr/00-template.html">ADR - &lt;Number&gt; &lt;Decision Shortname&gt;</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/10_quality_scenarios.html">10. Quality Requirements</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/11_technical_risks.html">11. Risks and Technical Debts</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/12_glossary.html">12. Glossary</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Operations Manual</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="opman/index.html">Operations Manual</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">ACME Product - System Level</span>
+    <span class="version">0.9.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="index.html">ACME Product - System Level</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">0.9.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../site/0.0.1/index.html">ConvexHull</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../site/0.0.1/index.html">0.0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../site/0.0.1/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">ACME Product - System Level</a></li>
+    <li>About</li>
+    <li><a href="important-words.html">SHALL, SHOULD and MAY</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/better-docs/system-doc-tpl/edit/master/docs/modules/ROOT/pages/important-words.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Important words</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The sematics of a few important words need to be defined in order to make this documentation unanimous.</p>
+</div>
+<div class="paragraph">
+<p>This document uses the definitions of <a href="#rfc2119">Semantics according to RFC 2119</a> as they are more expressive and a superset of the ISO definitions.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_semantics_according_to_iso"><a class="anchor" href="#_semantics_according_to_iso"></a>Semantics according to ISO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <a href="https://www.iso.org/foreword-supplementary-information.html">ISO defines</a> the following semantics:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">shall</dt>
+<dd>
+<p>indicates a requirement</p>
+</dd>
+<dt class="hdlist1">should</dt>
+<dd>
+<p>indicates a recommendation</p>
+</dd>
+<dt class="hdlist1">may</dt>
+<dd>
+<p>is used to indicate that something is permitted</p>
+</dd>
+<dt class="hdlist1">can</dt>
+<dd>
+<p>is used to indicate that something is possible, for example, that an organization or individual is able to do something</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="rfc2119"><a class="anchor" href="#rfc2119"></a>Semantics according to RFC 2119</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a> is a superset of the ISO definition:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">MUST</dt>
+<dd>
+<p>This word, or the terms "REQUIRED" or "SHALL", mean that the
+definition is an absolute requirement of the specification.</p>
+</dd>
+<dt class="hdlist1">MUST NOT</dt>
+<dd>
+<p>This phrase, or the phrase "SHALL NOT", mean that the
+definition is an absolute prohibition of the specification.</p>
+</dd>
+<dt class="hdlist1">SHOULD</dt>
+<dd>
+<p>This word, or the adjective "RECOMMENDED", mean that there
+may exist valid reasons in particular circumstances to ignore a
+particular item, but the full implications must be understood and
+carefully weighed before choosing a different course.</p>
+</dd>
+<dt class="hdlist1">SHOULD NOT</dt>
+<dd>
+<p>This phrase, or the phrase "NOT RECOMMENDED" mean that
+there may exist valid reasons in particular circumstances when the
+particular behavior is acceptable or even useful, but the full
+implications should be understood and the case carefully weighed
+before implementing any behavior described with this label.</p>
+</dd>
+<dt class="hdlist1">MAY</dt>
+<dd>
+<p>This word, or the adjective "OPTIONAL", mean that an item is
+truly optional.  One vendor may choose to include the item because a
+particular marketplace requires it or because the vendor feels that
+it enhances the product while another vendor may omit the same item.
+An implementation which does not include a particular option MUST be
+prepared to interoperate with another implementation which does
+include the option, though perhaps with reduced functionality. In the
+same vein an implementation which does include a particular option
+MUST be prepared to interoperate with another implementation which
+does not include the option (except, of course, for the feature the
+option provides.)</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

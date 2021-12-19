@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Documentation Layout :: Better Doc Example System</title>
+    <link rel="canonical" href="https://example.com/system/0.9.0/doc-layout.html">
+    <meta name="description" content="How is the documentation structured with regards to system documentation, day-to-day documentation and system-level vs. component-level documentation.">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://example.com">Better Doc Example System</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="system" data-version="0.9.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">ACME Product - System Level</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">About</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">ROOT index.adoc</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="doc-layout.html">Documentation Layout</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="important-words.html">SHALL, SHOULD and MAY</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">arc42 Architecture Documentation</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/01_introduction_and_goals.html">01. Introduction and Goals</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/02_architecture_constraints.html">02. Architecture Constraints</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/03_system_scope_and_context.html">03. System Scope and Context</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/04_solution_strategy.html">04. Solution Strategy</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="arc42/05_building_block_view.html">05. Building Block View</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level1.html">Level 1 Building Blocks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level2.html">Level 2 Building Blocks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="arc42/05_bb-level3.html">Level 3 Building Blocks</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/06_runtime_view.html">06. Runtime View</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/07_deployment_view.html">07. Deployment View</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="concepts/intro.html">08. Cross-cutting Concepts</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="concepts/be-secure.html">Be secure</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="concepts/do-this.html">Do this</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="adr/intro.html">09. Design Decisions (ADR)</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="adr/00-template.html">ADR - &lt;Number&gt; &lt;Decision Shortname&gt;</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/10_quality_scenarios.html">10. Quality Requirements</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/11_technical_risks.html">11. Risks and Technical Debts</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="arc42/12_glossary.html">12. Glossary</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Operations Manual</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="opman/index.html">Operations Manual</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">ACME Product - System Level</span>
+    <span class="version">0.9.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="index.html">ACME Product - System Level</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">0.9.0</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../site/0.0.1/index.html">ConvexHull</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../site/0.0.1/index.html">0.0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../site/0.0.1/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">ACME Product - System Level</a></li>
+    <li>About</li>
+    <li><a href="doc-layout.html">Documentation Layout</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/better-docs/system-doc-tpl/edit/master/docs/modules/ROOT/pages/doc-layout.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Documentation Layout</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>A well structured documentation is of immense help to the reader because it is
+not only <em>predictable</em>, it is most of all <em>trustworthy</em>. The value of good
+documentation becomes especially evident when it is just not there. Just like
+all things in live - you learn to value it as soon as you lose it.</p>
+</div>
+<div class="paragraph">
+<p>Trustworthiness is achieved by separating <em>what has been and what should be</em> from <em>what
+actually is</em>, or in the nomenclature used here, by separating <em>day-to-day
+documentation</em> from <em>system-as-is documentation</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_working_with_system_as_is_and_day_to_day_documentation"><a class="anchor" href="#_working_with_system_as_is_and_day_to_day_documentation"></a>Working with system-as-is and day-to-day documentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The system documentation is split into sections that <em>describe the system as it is right now</em> like
+<a href="arc42/01_introduction_and_goals.html" class="page">architecture</a>,
+<a href="opman/index.html" class="page">operating manual</a> or business processes and sections that
+<em>describe things that change</em> like planning, ideas, analyses, &#8230;&#8203; (see
+<a href="#fig-system-documentation">System- and day-to-day documentation</a>).</p>
+</div>
+<div class="paragraph">
+<p>Distinguishing between the a more formal <em>description of the system as-is</em> (&#8658; <em>system documentation</em>) and an more informal <em>description of things that were and might be</em> (&#8658; <em>day-to-day documentation</em>) greatly improves the usefulness of the documentation and makes it easy to add or change the documentation. By enforcing that the <em>system documentation</em> always reflects the system to a very high degree it stays <em>trustworthy</em>. To choose where to put it ask a simple question: "does it describe the system as of now" (<a href="#fig-where-to-put-it">How to choose where to put it?</a> and <a href="#component-or-system">Decision table to determine if it belongs in the <em>system</em> or a <em>component</em> documentation.</a>).</p>
+</div>
+<div id="fig-system-documentation" class="imageblock kroki">
+<div class="content">
+<img src="_images/diag-c2f50f489d8a2f3de8c38a071c51f818440bcfa9.svg" alt="System- and day-to-day documentation">
+</div>
+<div class="title">Figure 1. System- and day-to-day documentation</div>
+</div>
+<div id="fig-where-to-put-it" class="imageblock kroki">
+<div class="content">
+<img src="_images/diag-6530ce3a1d7c5b8f3dac0cd9306d6e2beeac958c.svg" alt="How to choose where to put it?">
+</div>
+<div class="title">Figure 2. How to choose where to put it?</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_working_with_micro_services"><a class="anchor" href="#_working_with_micro_services"></a>Working with (micro) services</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Most systems nowadays are split into several services with their own
+documentation. The layout of the documentation of each component mirrors the
+layout of the system documentation. The major difference is that the system
+documentation looks at the system as a whole, whereas the component
+documentation focuses on the concrete component/service. The documentation is
+build from multiple repositories by <a href="#antora">Antora</a>. The following table
+helps to decide if a fact belongs into the <em>system</em> documentation or a
+<em>component</em> documentation.</p>
+</div>
+<table id="component-or-system" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Decision table to determine if it belongs in the <em>system</em> or a <em>component</em> documentation.</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 40%;">
+<col style="width: 40%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Aspect</th>
+<th class="tableblock halign-left valign-top">System</th>
+<th class="tableblock halign-left valign-top">Component</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><code>name</code>  in <code>antora.yml</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>system</code> (fix)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">name of the component, e.g. <code>billing</code>, <code>admin-ui</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>01. Introduction and Goals</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description of the whole (IT) system.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Concisely describe the component/service, defer to the <code>system</code> documentation
+  for an overview and details.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>02. Architecture Constraints</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Constraints affecting the whole system.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Constraints affecting specifically this component/service.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>03. System Scope and Context</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description of the whole system</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Defer to the  <a href="arc42/03_system_scope_and_context.html" class="page">Global System Scope and Context</a> in the
+  <code>system</code> component by linking to it
+  (<code>xref:system:arc42:03_system_scope_and_context.adoc[]</code>).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>04. Solution Strategy</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Strategy for the whole system.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Strategy for this component.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>05. Building Block View</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description of the levels 1 and 2.
+  Level 2 links to the level 2 description of the component repositories.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Level 1 defers to the <code>system</code> documentation (<a href="arc42/05_bb-level1.html" class="page">Global Level 1 Building Blocks</a>)
+  and describes level 2 for the component.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>06. Runtime View</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Include the most important use cases/processes in the vocabulary of
+  <a href="arc42/05_bb-level1.html" class="page">the level 1 building blocks</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Include the most important use cases/processes <em>of the component</em> in
+  the vocabulary of the <a href="arc42/05_bb-level1.html" class="page">level 1</a> and
+  <a href="arc42/05_bb-level2.html" class="page">level 2</a> building blocks.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>07. Deployment View</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Deployment view with links to the components.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Defer to the <code>system</code> documentation.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>08. Cross-cutting Concepts</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">System level concepts with links to the <em>system operations manual</em>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component local concepts with links to the <em>component operations manual</em>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>09. Design Decisions (ADR)</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">System level ADR.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component local ADR that are strictly local to the component.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>10. Quality Requirements</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">System level quality requirements.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component local quality requirements.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>11. Risks and Technical Debts</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">System level risks and technical depts.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component local risks and technical depts.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>arc42 <code>12. Glossary</code></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">System level glossary.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component local glossary.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">How to mark if this document is for the system or a component?</div>
+<div class="paragraph">
+<p>All documents should include a
+<a href="https://docs.antora.org/antora/2.3/page/include-a-partial/">partial</a> that
+describes the scope and context of the document like the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>include::ROOT:partial$scope.adoc[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>with a content of <code>ROOT/partials/scope.adoc</code> similar to the following example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>NOTE: The scope of this page is the **{page-component-title}** (`{page-component-name}`) in version {page-component-display-version}.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Example:</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The scope of this page is the <strong>ACME Product - System Level</strong> (<code>system</code>) in version 0.9.0.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_working_with_versions"><a class="anchor" href="#_working_with_versions"></a>Working with versions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>TODO</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="antora"><a class="anchor" href="#antora"></a>Tooling: <em>Antora</em></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The HTML documentation is created from several <a href="https://asciidoctor.org/">asciidoc</a> pages split over several git repositories. <a href="https://antora.org/">Antora</a> pulls all repositories and files together and generates this site.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_working_with_releases"><a class="anchor" href="#_working_with_releases"></a>Working with releases</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://docs.antora.org/antora/2.3/content-source-versioning-methods/">Antora component versions</a> are used to tie releases together.</p>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
