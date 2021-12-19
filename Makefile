@@ -9,3 +9,10 @@ doc-serve:
 
 doc-clean:
 	rm -rf dist
+
+ghpages:
+	# If the playbook contains protexted repositories then
+	# set the credentials in the gh workflow (GIT_CREDENTIALS)
+	# https://docs.antora.org/antora/3.0/playbook/private-repository-auth/
+	echo "GIT_CREDENTIALS := ${GIT_CREDENTIALS}"
+	npx --no-install antora --fetch antora-playbook.yml

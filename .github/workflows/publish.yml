@@ -17,13 +17,11 @@ jobs:
       - name: "[install Antora] Install Kroki client"
         run: npm i --no-fund --no-audit --silent asciidoctor-kroki
       - name: "[run Antora    ] Run Antora"
-        run: npx --no-install antora --fetch antora-playbook.yml
+        run: |
+          export GIT_CREDENTIALS="https://${{ secrets.GITHUB_TOKEN }}:@github.com"
+          make ghpages
       - name: "[publish       ] Publish to GitHub Pages"
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/site
-
-
-
-
+          publish_dir: antora-site/dist
