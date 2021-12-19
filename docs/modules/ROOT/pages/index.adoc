@@ -1,6 +1,16 @@
 [[section-main-page]]
 = Landing Page
 
+.Landing page
+****
 This is the example landing page.
+****
 
-INFO: You can switch to other parts or versions of the documentation in the bottom left corner of the page. E.g. by clicking the xref:system:ROOT:index.adoc[] link.
+[TIP]
+====
+You can switch to other parts or versions of the documentation in the bottom
+left corner of the page. E.g. by clicking the xref:system:ROOT:index.adoc[link]
+to the systems documentation.
+
+image:example-link-systemdoc.png["Example screenshot of the component selection on this site."]
+====
