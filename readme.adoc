@@ -1,7 +1,17 @@
 = Antora Site Definition
+
 image:https://github.com/better-docs/doc-site-tpl/actions/workflows/publish.yml/badge.svg["Publish to GitHub Pages", link=https://github.com/better-docs/doc-site-tpl/actions/workflows/publish.yml]
 
-This config assumes the following directory layout
+This *site* aggregates one *system-doc* and multiple *components* into one statically generated website.
+
+site:: The sites link:antora-playbook.yml[Antora playbook] ties together the *system* documentation  and all *component* documentation repositories. The *site* provides the landing page for the generated site.
+system doc:: Documentation that explains the system as a whole.
+component doc:: Documentation that explains a specific component (in Antora speak) or *micro service* or *bounded context*, depending on how you want to structure it.
+
+== Directory Layout
+
+This config assumes the following directory layout:
+
 .Directory layout
 ----
 .
