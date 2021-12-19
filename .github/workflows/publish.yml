@@ -15,7 +15,7 @@ jobs:
       - name: "[install Antora] Install Antora from npm"
         run: npm i --no-fund --no-audit --silent @antora/cli @antora/site-generator
       - name: "[install Antora] Install Kroki client"
-        run: npm i --no-fund --no-audit --silent @asciidoctor-kroki 
+        run: npm i --no-fund --no-audit --silent asciidoctor-kroki
       - name: "[run Antora    ] Run Antora"
         run: npx --no-install antora --fetch antora-playbook.yml
       - name: "[publish       ] Publish to GitHub Pages"
