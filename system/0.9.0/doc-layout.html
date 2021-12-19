@@ -62,7 +62,7 @@
     <span class="nav-text">About</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="index.html">ROOT index.adoc</a>
+    <a class="nav-link" href="index.html">About</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="doc-layout.html">Documentation Layout</a>
@@ -217,15 +217,34 @@ documentation</em> from <em>system-as-is documentation</em>.</p>
 <div class="sect1">
 <h2 id="_working_with_system_as_is_and_day_to_day_documentation"><a class="anchor" href="#_working_with_system_as_is_and_day_to_day_documentation"></a>Working with system-as-is and day-to-day documentation</h2>
 <div class="sectionbody">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
 <div class="paragraph">
-<p>The system documentation is split into sections that <em>describe the system as it is right now</em> like
+<p>The system documentation <a href="important-words.html" class="page">shall</a> be split into sections
+that <em>describe the system as it is right now</em> like
 <a href="arc42/01_introduction_and_goals.html" class="page">architecture</a>,
 <a href="opman/index.html" class="page">operating manual</a> or business processes and sections that
 <em>describe things that change</em> like planning, ideas, analyses, &#8230;&#8203; (see
 <a href="#fig-system-documentation">System- and day-to-day documentation</a>).</p>
 </div>
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
-<p>Distinguishing between the a more formal <em>description of the system as-is</em> (&#8658; <em>system documentation</em>) and an more informal <em>description of things that were and might be</em> (&#8658; <em>day-to-day documentation</em>) greatly improves the usefulness of the documentation and makes it easy to add or change the documentation. By enforcing that the <em>system documentation</em> always reflects the system to a very high degree it stays <em>trustworthy</em>. To choose where to put it ask a simple question: "does it describe the system as of now" (<a href="#fig-where-to-put-it">How to choose where to put it?</a> and <a href="#component-or-system">Decision table to determine if it belongs in the <em>system</em> or a <em>component</em> documentation.</a>).</p>
+<p>Distinguishing between the a more formal <em>description of the system as-is</em> (&#8658;
+<em>system documentation</em>) and an more informal <em>description of things that were
+and might be</em> (&#8658; <em>day-to-day documentation</em>) greatly improves the usefulness of
+the documentation and makes it easy to add or change the documentation. By
+enforcing that the <em>system documentation</em> always reflects the system to a very
+high degree it stays <em>trustworthy</em>. To choose where to put it ask a simple
+question: "does it describe the system as of now" (<a href="#fig-where-to-put-it">How to choose where to put it?</a> and
+<a href="#component-or-system">Decision table to determine if it belongs in the <em>system</em> or a <em>component</em> documentation.</a>).</p>
 </div>
 <div id="fig-system-documentation" class="imageblock kroki">
 <div class="content">
@@ -244,6 +263,23 @@ documentation</em> from <em>system-as-is documentation</em>.</p>
 <div class="sect1">
 <h2 id="_working_with_micro_services"><a class="anchor" href="#_working_with_micro_services"></a>Working with (micro) services</h2>
 <div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Systems with only a few services/components <a href="important-words.html" class="page">may</a>
+keep the documentation in one repository. Systems with many services should
+split the system documentation into a dedicated repository and store the
+documentation of each service in a <code>doc</code> folder besides the services source code.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>Most systems nowadays are split into several services with their own
 documentation. The layout of the documentation of each component mirrors the
@@ -251,8 +287,8 @@ layout of the system documentation. The major difference is that the system
 documentation looks at the system as a whole, whereas the component
 documentation focuses on the concrete component/service. The documentation is
 build from multiple repositories by <a href="#antora">Antora</a>. The following table
-helps to decide if a fact belongs into the <em>system</em> documentation or a
-<em>component</em> documentation.</p>
+<a href="important-words.html" class="page">should</a> be used to decide if a fact belongs into the
+<em>system</em> documentation or a <em>component</em> documentation.</p>
 </div>
 <table id="component-or-system" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 1. Decision table to determine if it belongs in the <em>system</em> or a <em>component</em> documentation.</caption>
@@ -387,8 +423,65 @@ The scope of this page is the <strong>ACME Product - System Level</strong> (<cod
 <div class="sect1">
 <h2 id="_working_with_versions"><a class="anchor" href="#_working_with_versions"></a>Working with versions</h2>
 <div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>The version of the documentation should follow the <code>MAJOR.MINOR</code> of the
+component/system.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The documentation carries a
+<a href="https://docs.antora.org/antora/2.3/component-version/">version</a> attribute that
+Antora uses to build one site with multiple components and versions.</p>
+</div>
+<div class="sect2">
+<h3 id="_multiple_repositories"><a class="anchor" href="#_multiple_repositories"></a>Multiple Repositories</h3>
+<div class="paragraph">
+<p><a href="https://docs.antora.org/antora/2.3/content-source-versioning-methods/">Antora
+component versions</a> are used to tie releases together.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_pre_release_versions"><a class="anchor" href="#_pre_release_versions"></a>Pre-Release Versions</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Pre-release versions of the documentation should be treated like pre-release
+code with regards to branches and version postfixes (e.g. <code>-rc2</code>).</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Pre-release versions of the <em>system-as-is</em> documentation should be kept in
+dedicated branches according to the branching schema established for the source
+code (e.g. <a href="https://nvie.com/posts/a-successful-git-branching-model/">git-flow</a>,
+<a href="https://docs.github.com/en/get-started/quickstart/github-flow/">GitHub-flow</a>, &#8230;&#8203;).
+Pre-release documentation should use the Antora
+<a href="https://docs.antora.org/antora/2.3/component-prerelease/">prerelease</a> key to
+distinguish these versions from released versions.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_different_component_versions_in_the_same_system"><a class="anchor" href="#_different_component_versions_in_the_same_system"></a>Different Component Versions in the same system</h3>
 <div class="paragraph">
 <p>TODO</p>
+</div>
 </div>
 </div>
 </div>
@@ -396,15 +489,10 @@ The scope of this page is the <strong>ACME Product - System Level</strong> (<cod
 <h2 id="antora"><a class="anchor" href="#antora"></a>Tooling: <em>Antora</em></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The HTML documentation is created from several <a href="https://asciidoctor.org/">asciidoc</a> pages split over several git repositories. <a href="https://antora.org/">Antora</a> pulls all repositories and files together and generates this site.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_working_with_releases"><a class="anchor" href="#_working_with_releases"></a>Working with releases</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><a href="https://docs.antora.org/antora/2.3/content-source-versioning-methods/">Antora component versions</a> are used to tie releases together.</p>
+<p>The HTML documentation is created from several
+<a href="https://asciidoctor.org/">asciidoc</a> pages split over several git
+repositories. <a href="https://antora.org/">Antora</a> pulls all repositories and files
+together and generates this site.</p>
 </div>
 </div>
 </div>
