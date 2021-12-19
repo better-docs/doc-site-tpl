@@ -1,5 +1,5 @@
 site:
-  title: Example System
+  title: Better Doc Example System
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://example.com/
   start_page: site::index.adoc
@@ -15,6 +15,11 @@ ui:
   bundle:
      url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
      snapshot: true
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files: [ .nojekyll ]
+  - path: .nojekyll
 
 asciidoc:
   attributes:
