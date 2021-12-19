@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-<loc>https://example.com/sitemap-site.xml</loc>
+<loc>https://better-docs.github.io/doc-site-tpl/sitemap-site.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://example.com/sitemap-system.xml</loc>
+<loc>https://better-docs.github.io/doc-site-tpl/sitemap-system.xml</loc>
 </sitemap>
 </sitemapindex>
