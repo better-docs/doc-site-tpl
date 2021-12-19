@@ -1,5 +1,5 @@
 name: site
-title: ConvexHull
+title: Better Doc example - landing page
 version: 0.0.1
 start_page: ROOT:index.adoc
 nav:
