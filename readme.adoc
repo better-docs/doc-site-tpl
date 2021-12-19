@@ -1,7 +1,7 @@
 = Antora Site Definition
+image:https://github.com/better-docs/doc-site-tpl/actions/workflows/publish.yml/badge.svg["Publish to GitHub Pages", link=https://github.com/better-docs/doc-site-tpl/actions/workflows/publish.yml]
 
 This config assumes the following directory layout
-
 .Directory layout
 ----
 .
